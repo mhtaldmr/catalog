@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.Features;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -9,25 +10,25 @@ using Vega.Persistance;
 
 namespace Vega.Controllers
 {
-    public class MakesController : Controller 
+    public class FeaturesController : Controller
     {
         private readonly VegaDbContext context;
         private readonly IMapper mapper;
 
-        public MakesController(VegaDbContext context, IMapper mapper)
+        public FeaturesController(VegaDbContext context, IMapper mapper)
         {
             this.context = context;
             this.mapper = mapper;
         }
 
-
-        [HttpGet("/api/makes")]
-        public async Task<IEnumerable<MakeResource>> GetMakes()
+        [HttpGet("/api/features")]
+        public async Task<IEnumerable<FeatureResource>> GetFeatures()
         {
-            var makes = await context.Makes.Include(m => m.Models).ToListAsync();
+            var feature = await context.Features.ToListAsync();
 
-            return mapper.Map<List<Make>, List<MakeResource>>(makes);
+            return mapper.Map<List<Feature>, List<FeatureResource>>(feature);
         }
+
 
 
     }
