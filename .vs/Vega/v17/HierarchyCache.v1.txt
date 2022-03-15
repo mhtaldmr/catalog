@@ -1,0 +1,259 @@
+﻿++Solution 'Vega' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Vega.sln
+++Vega
+i:{00000000-0000-0000-0000-000000000000}:Vega
+++Connected Services 
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154259
+++SQL Server Database
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154286
+++Dependencies
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154258
+++Analyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:analyzers
+++Microsoft.AspNetCore.Analyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Frameworks
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:frameworks
+++Packages
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:packages
+++AutoMapper (11.0.1)
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154275
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154273
+++Microsoft.AspNetCore.SpaServices.Extensions (5.0.13)
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154276
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.13)
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154272
+++Microsoft.EntityFrameworkCore.Tools (5.0.13)
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154277
+++Newtonsoft.Json (13.0.1)
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154274
+++Properties
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\properties\
+++launchSettings.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\properties\launchsettings.json
+++wwwroot
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\wwwroot\
+++favicon.ico
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\wwwroot\favicon.ico
+++ClientApp
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\
+++e2e
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\e2e\
+++src
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\e2e\src\
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\
+++app.e2e-spec.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\e2e\src\app.e2e-spec.ts
+++app.po.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\e2e\src\app.po.ts
+++protractor.conf.js
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\e2e\protractor.conf.js
+++tsconfig.e2e.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\e2e\tsconfig.e2e.json
+++app
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\
+++counter
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\counter\
+++counter.component.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\counter\counter.component.html
+++counter.component.spec.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\counter\counter.component.spec.ts
+++counter.component.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\counter\counter.component.ts
+++fetch-data
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\fetch-data\
+++fetch-data.component.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\fetch-data\fetch-data.component.html
+++fetch-data.component.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\fetch-data\fetch-data.component.ts
+++home
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\home\
+++home.component.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\home\home.component.html
+++home.component.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\home\home.component.ts
+++nav-menu
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\nav-menu\
+++services
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\services\
+++make.service.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\services\make.service.ts
+++vehicle-form
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\vehicle-form\
+++vehicle-form.component.css
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\vehicle-form\vehicle-form.component.css
+++vehicle-form.component.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\vehicle-form\vehicle-form.component.html
+++vehicle-form.component.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\vehicle-form\vehicle-form.component.ts
+++app.component.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\app.component.html
+++app.component.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\app.component.ts
+++app.module.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\app.module.ts
+++app.server.module.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\app.server.module.ts
+++assets
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\assets\
+++.gitkeep
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\assets\.gitkeep
+++environments
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\environments\
+++environment.prod.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\environments\environment.prod.ts
+++environment.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\environments\environment.ts
+++index.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\index.html
+++karma.conf.js
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\karma.conf.js
+++main.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\main.ts
+++polyfills.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\polyfills.ts
+++styles.css
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\styles.css
+++test.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\test.ts
+++tsconfig.app.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\tsconfig.app.json
+++tsconfig.server.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\tsconfig.server.json
+++tsconfig.spec.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\tsconfig.spec.json
+++tslint.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\tslint.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\tslint.json
+++.editorconfig
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\.editorconfig
+++.gitignore
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\.gitignore
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\.gitignore
+++angular.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\angular.json
+++browserslist
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\browserslist
+++package.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\package.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\package.json
+++package-lock.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\package-lock.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\package-lock.json
+++README.md
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\readme.md
+++tsconfig.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\tsconfig.json
+++Controllers
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\
+++Resources
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\resources\
+++FeaturesController.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\featurescontroller.cs
+++MakesController.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\makescontroller.cs
+++WeatherForecastController.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\weatherforecastcontroller.cs
+++Mapping
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\mapping\
+++Migrations
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\
+++20220308180307_initialModel.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220308180307_initialmodel.cs
+++20220308210651_SecondModel.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220308210651_secondmodel.cs
+++20220308211959_Seed.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220308211959_seed.cs
+++20220309142241_addingfeatures.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220309142241_addingfeatures.cs
+++20220309142332_seedsForFeatures.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220309142332_seedsforfeatures.cs
+++20220309143218_seedsForFeatures2.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220309143218_seedsforfeatures2.cs
+++VegaDBContextModelSnapshot.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\vegadbcontextmodelsnapshot.cs
+++Models
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\models\
+++Feature.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\models\feature.cs
+++Make.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\models\make.cs
+++Model.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\models\model.cs
+++Pages
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\pages\
+++_ViewImports.cshtml
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\pages\_viewimports.cshtml
+++Error.cshtml
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\pages\error.cshtml
+++Error.cshtml.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\pages\error.cshtml.cs
+++Persistance
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\persistance\
+++VegaDbContext.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\persistance\vegadbcontext.cs
+++appsettings.Development.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\appsettings.development.json
+++appsettings.json
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\appsettings.json
+++Program.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\program.cs
+++Startup.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\startup.cs
+++WeatherForecast.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\weatherforecast.cs
+++SQL Server Database dependency is detected
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>154287
+++Microsoft.AspNetCore.App
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\microsoft.netcore.app
+++nav-menu.component.css
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\nav-menu\nav-menu.component.css
+++nav-menu.component.html
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\nav-menu\nav-menu.component.html
+++nav-menu.component.ts
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\clientapp\src\app\nav-menu\nav-menu.component.ts
+++FeatureResource.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\resources\featureresource.cs
+++MakeResource.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\resources\makeresource.cs
+++ModelResource.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\controllers\resources\modelresource.cs
+++MappingProfile.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\mapping\mappingprofile.cs
+++20220308180307_initialModel.Designer.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220308180307_initialmodel.designer.cs
+++20220308210651_SecondModel.Designer.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220308210651_secondmodel.designer.cs
+++20220308211959_Seed.Designer.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220308211959_seed.designer.cs
+++20220309142241_addingfeatures.Designer.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220309142241_addingfeatures.designer.cs
+++20220309142332_seedsForFeatures.Designer.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220309142332_seedsforfeatures.designer.cs
+++20220309143218_seedsForFeatures2.Designer.cs
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:c:\users\mhtal\onedrive\desktop\netcore\netcore with mosh\vega\vega\vega\migrations\20220309143218_seedsforfeatures2.designer.cs
+++npm
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>161422
+++@angular/common - not installed
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>161423
+++@angular/core - not installed
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>161424
+++@angular/http - not installed
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>161427
+++@angular/platform-browser - not installed
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>161425
+++zone.js - not installed
+i:{1b856d2a-f935-4616-9373-e2cc310fe961}:>161426

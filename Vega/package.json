@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@angular/cli": "^13.2.6"
+  },
+  "dependencies": {
+    "@angular/http": "^7.2.16",
+    "rxjs-compat": "^6.6.7"
+  }
+}
