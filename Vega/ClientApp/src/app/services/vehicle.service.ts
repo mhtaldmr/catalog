@@ -1,12 +1,8 @@
 import { HttpClientModule } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { HttpModule } from '@angular/http';
 import { HttpClient } from '@angular/common/http';
 import 'rxjs/add/operator/map';
-import { map } from 'rxjs/operators';
 import 'rxjs/Rx';
-import { Observable, throwError } from 'rxjs';
-import { catchError, retry } from 'rxjs/operators';
 import { Config } from 'protractor';
 
 
@@ -14,7 +10,7 @@ import { Config } from 'protractor';
   providedIn: 'root'
 })
 
-export class MakeService {
+export class VehicleService {
 
   constructor(private http: HttpClient) { }
 
@@ -23,6 +19,11 @@ export class MakeService {
     //  .map(res => res);
 
     return this.http.get<Config>('/api/makes');
+  }
+
+  getFeatures() {
+
+    return this.http.get<Config>('/api/features');
   }
 
 

@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { VehicleFormComponent } from './vehicle-form/vehicle-form.component';
-import { MakeService } from './services/make.service';
+import { VehicleService } from './services/vehicle.service';
 
 @NgModule({
   declarations: [
@@ -28,12 +28,13 @@ import { MakeService } from './services/make.service';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
-      { path: 'vehicles/new', component : VehicleFormComponent},
+      { path: 'vehicles/new', component: VehicleFormComponent },
+
       { path: 'fetch-data', component: FetchDataComponent },
     ])
   ],
   providers: [
-    MakeService
+    VehicleService
   ],
   bootstrap: [AppComponent]
 })
