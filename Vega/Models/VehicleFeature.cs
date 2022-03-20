@@ -1,5 +1,8 @@
-﻿namespace Vega.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Vega.Models
 {
+    [Table("VehicleFeatures")]
     public class VehicleFeature
     {
         
