@@ -53,6 +53,9 @@ namespace Vega
             if (!env.IsDevelopment())
             {
                 app.UseSpaStaticFiles();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Vegaa"));
+
             }
 
             app.UseRouting();

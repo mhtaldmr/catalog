@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Vega.Models;
 
 namespace Vega.Controllers
@@ -8,8 +7,12 @@ namespace Vega.Controllers
     public class VehiclesController : Controller
     {
         [HttpPost]
-        public IActionResult CreateVehicle(Vehicle vehicle)
+        public IActionResult CreateVehicle( [FromBody] Vehicle vehicle)
         {
+            if (vehicle is null) //if the user not send any data, we will return bad request
+                return BadRequest("No data entered!");
+
+
             return Ok(vehicle);
         }
 
