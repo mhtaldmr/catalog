@@ -28,8 +28,8 @@ namespace Vega
 
 
 
-
             services.AddControllersWithViews();
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -53,9 +53,7 @@ namespace Vega
             if (!env.IsDevelopment())
             {
                 app.UseSpaStaticFiles();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Vegaa"));
-
+              
             }
 
             app.UseRouting();
@@ -82,3 +80,6 @@ namespace Vega
         }
     }
 }
+
+
+
