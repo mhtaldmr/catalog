@@ -20,10 +20,11 @@ namespace Vega.Mapping
 
             //API resource to Domain
             CreateMap<VehicleResource, Vehicle>()
+                .ForMember(v => v.Id, op => op.Ignore())
                 .ForMember(v => v.ContactName, op => op.MapFrom(vr => vr.Contact.Name))
                 .ForMember(v => v.ContactEmail, op => op.MapFrom(vr => vr.Contact.Email))
                 .ForMember(v => v.ContactPhone, op => op.MapFrom(vr => vr.Contact.Phone))
-                .ForMember(v => v.Features, op => op.MapFrom(vf => vf.Features.Select(id => new VehicleFeature { FeatureId = id })));
+                .ForMember(v => v.Features, op => op.MapFrom(vf => vf.Features.Select(id => new VehicleFeature { FeatureId = id }))  );
 
 
         }

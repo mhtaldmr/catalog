@@ -23,7 +23,7 @@ namespace Vega.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateVehicle( [FromBody] VehicleResource vehicleResource)
+        public async Task<IActionResult> CreateVehicle([FromBody] VehicleResource vehicleResource)
         {
             //if the user not send any data, we will return bad request
             //if (vehicleResource is null)
@@ -42,8 +42,35 @@ namespace Vega.Controllers
 
             var result = mapper.Map<Vehicle, VehicleResource>(vehicle);
 
-            return  Ok(result);
+            return Ok(result);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateVehicle(int id, [FromBody] VehicleResource vehicleResource)
+        {
+            //if the user not send any data, we will return bad request : ANOTHER WAY with ModelState
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+
+            var vehicle = await context.Vehicles.FindAsync(id);
+            mapper.Map<VehicleResource, Vehicle>(vehicleResource, vehicle);
+            vehicle.LastUpdate = DateTime.Now;
+
+            await context.SaveChangesAsync();
+
+            var result = mapper.Map<Vehicle, VehicleResource>(vehicle);
+
+            return Ok(result);
+        }
+
+
+
+
+
+
+
+
 
     }
 }
