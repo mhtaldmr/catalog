@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using System.Collections.Generic;
 using System.Linq;
 using Vega.Controllers.Resources;
 using Vega.Models;
@@ -24,9 +25,23 @@ namespace Vega.Mapping
                 .ForMember(v => v.ContactName, op => op.MapFrom(vr => vr.Contact.Name))
                 .ForMember(v => v.ContactEmail, op => op.MapFrom(vr => vr.Contact.Email))
                 .ForMember(v => v.ContactPhone, op => op.MapFrom(vr => vr.Contact.Phone))
-                .ForMember(v => v.Features, op => op.MapFrom(vf => vf.Features.Select(id => new VehicleFeature { FeatureId = id }))  );
+                .ForMember(v => v.Features, op => op.Ignore())
+                .AfterMap((vr, v) =>
+                {
+                    //Remove unselected features
+                    var removedFeatures = new List<VehicleFeature>();
+                    foreach (var f in v.Features)
+                        if (!vr.Features.Contains(f.FeatureId))
+                            removedFeatures.Add(f);
+                    foreach (var id in removedFeatures)
+                        v.Features.Remove(id);
 
+                    //Adding selected features
+                    foreach (var id in vr.Features)
+                        if (v.Features.Any(f => f.FeatureId == id))
+                            v.Features.Add(new VehicleFeature { FeatureId = id });
 
+                });
         }
 
     }
