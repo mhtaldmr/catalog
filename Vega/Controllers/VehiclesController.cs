@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 using Vega.Controllers.Resources;
 using AutoMapper;
 using Vega.Persistance;
-using Microsoft.EntityFrameworkCore;
-using System.Linq;
+
 
 namespace Vega.Controllers
 {
@@ -26,15 +25,24 @@ namespace Vega.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateVehicle( [FromBody] VehicleResource vehicleResource)
         {
-            if (vehicleResource is null) //if the user not send any data, we will return bad request
-                return BadRequest("No data entered!");
+            //if the user not send any data, we will return bad request
+            //if (vehicleResource is null)
+            //    return BadRequest("No data entered!");
+
+            //if the user not send any data, we will return bad request : ANOTHER WAY with ModelState
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
 
             var vehicle = mapper.Map<VehicleResource, Vehicle>(vehicleResource);
+            vehicle.LastUpdate = DateTime.Now;
 
             context.Vehicles.Add(vehicle);
             await context.SaveChangesAsync();
 
-            return  Ok(vehicle);
+            var result = mapper.Map<Vehicle, VehicleResource>(vehicle);
+
+            return  Ok(result);
         }
 
     }
