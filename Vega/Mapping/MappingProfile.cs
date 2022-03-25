@@ -12,6 +12,7 @@ namespace Vega.Mapping
         {
             //Domain to API Recource
             CreateMap<Make, MakeResource>();
+            CreateMap<Make, KeyValuePairResource>();
             CreateMap<Model, KeyValuePairResource>();
             CreateMap<Feature, KeyValuePairResource>();
             CreateMap<Vehicle, SaveVehicleResource>()
