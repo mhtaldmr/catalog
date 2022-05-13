@@ -1,5 +1,6 @@
 
 using System.Threading.Tasks;
+using Vega.Core.Application.Interfaces;
 
 namespace Vega.Persistance
 {

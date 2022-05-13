@@ -4,8 +4,7 @@ using System;
 using System.Threading.Tasks;
 using Vega.Controllers.Resources;
 using AutoMapper;
-using Vega.Persistance;
-using Microsoft.EntityFrameworkCore;
+using Vega.Core.Application.Interfaces;
 
 namespace Vega.Controllers
 {

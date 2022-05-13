@@ -1,11 +1,11 @@
 
 using System.Threading.Tasks;
 
-namespace Vega.Persistance
+namespace Vega.Core.Application.Interfaces
 {
     public interface IUnitOfWork
     {
         Task CompleteAsync();
     }
-    
+
 }

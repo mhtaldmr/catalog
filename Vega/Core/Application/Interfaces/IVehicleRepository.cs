@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Vega.Models;
 
-namespace Vega.Persistance
+namespace Vega.Core.Application.Interfaces
 {
     public interface IVehicleRepository
     {
@@ -11,5 +11,5 @@ namespace Vega.Persistance
         void Remove(Vehicle vehicle);
 
     }
-    
+
 }

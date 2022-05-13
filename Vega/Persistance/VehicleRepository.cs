@@ -1,5 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using Vega.Core.Application.Interfaces;
 using Vega.Models;
 
 namespace Vega.Persistance
@@ -24,7 +26,7 @@ namespace Vega.Persistance
                     .ThenInclude(vf => vf.Feature)
                 .Include(v => v.Model)
                     .ThenInclude(v => v.Make)
-                .SingleOrDefaultAsync(v => v.Id == vehicle.Id);
+                .SingleOrDefaultAsync(v => v.Id == id);
         }
 
         public void Add(Vehicle vehicle)

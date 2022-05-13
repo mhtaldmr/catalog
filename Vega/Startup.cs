@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Vega.Persistance;
 using System.Reflection;
+using Vega.Core.Application.Interfaces;
 
 namespace Vega
 {
