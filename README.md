@@ -31,3 +31,4 @@ This project is a catalog project for stuff shows some data.
 - Ordering will be implemented.
 - Searching will be implemented.
 - As final, refactoring for solid principles.
+- Learning new design patterns and apply.
